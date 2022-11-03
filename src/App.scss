@@ -1,0 +1,28 @@
+.ant-layout{
+  width: 100%;
+  .ant-layout-header{
+      width: 100%;
+      height: 9.85vh;
+      background-color: white;
+      border: none;
+  }
+  .ant-layout{
+      display: flex;
+      flex-direction: row;
+      .ant-layout-sider{
+          background: #0076BF;
+          border-radius: 0px 20px 20px 0px;
+          width: 15.20%;
+          height: 89.42vh;
+      }
+      .ant-layout-content{
+        
+        margin: 1%;
+          width: 82.91%;
+          height: 87.11vh;
+          border-radius: 0.47%;
+          background: #FFFFFF;
+          padding: 2%;
+      }
+    }
+  }

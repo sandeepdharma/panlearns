@@ -1,0 +1,51 @@
+.organisations-content-header-container{
+    display: flex;
+    align-items: center;
+}
+.ant-typography{
+    width: 17.58%;
+    height: 4.08%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #050505;
+}
+.ant-input-affix-wrapper{
+    margin-left: 25%;
+    width: 21.60%;
+    height: 5.72%;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+}
+.gridview-icon-container{
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    width: 55px;
+   margin-bottom: 1%;
+    margin-right: 7%;
+}
+.ant-dropdown-trigger{
+    margin-right: 3%;
+}
+.ant-btn-primary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 141px;
+    height: 42px;
+    background: #0076BF;
+    border-radius: 6px;
+}
+
+.ant-menu-horizontal, .ant-menu-item::after{
+    border: none !important;
+}
+
+.ant-menu > .ant-menu-item-active{
+  color: #0076BF;
+}
