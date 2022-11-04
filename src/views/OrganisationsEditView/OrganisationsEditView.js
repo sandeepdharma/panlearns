@@ -3,9 +3,11 @@ import { Typography, Input, Space, Button, Select,Modal } from "antd";
 import { useHistory } from 'react-router-dom';
 import { useState } from 'react';
 const OrganisationsEditView = () => {
+  
   const [isModalOpen, setIsModalOpen] = useState(false);
   const history = useHistory();
     const { Text } = Typography;
+    
     const showModal = () => {
       setIsModalOpen(true);
     };
@@ -155,7 +157,7 @@ const OrganisationsEditView = () => {
             </div>
           </div>
           <Space direction="horizontal" className="button-container">
-            <Button size="large" onClick={() => history.goBack()} style={{color:'#007784'}}>Cancel</Button>
+            <Button size="large" onClick={() => history.goBack() } style={{color:'#007784'}}>Cancel</Button>
             <Button size="large" type="primary">
               save
             </Button>

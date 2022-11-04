@@ -5,7 +5,7 @@ export const dummydata = [
         orgTitle:"IT Technologies",
         orgDomain:"IT Service",
         orgEmail:"info@ittechnologies.com",
-        orgStatus:"",
+        orgStatus:true,
     },
     {
         id:2,
@@ -13,7 +13,7 @@ export const dummydata = [
         orgTitle:"FIN 101",
         orgDomain:"Finance Service",
         orgEmail:"info@f101.com",
-        orgStatus:"",
+        orgStatus:true,
     },
     {
         id:3,
@@ -21,7 +21,7 @@ export const dummydata = [
         orgTitle:"Hotel Planner.com",
         orgDomain:"Online Booking",
         orgEmail:"info@hp.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:4,
@@ -29,7 +29,7 @@ export const dummydata = [
         orgTitle:"Shopify",
         orgDomain:"Ecommerce",
         orgEmail:"info@shopify.com",
-        orgStatus:"",
+        orgStatus:true,
     },
     {
         id:5,
@@ -37,7 +37,7 @@ export const dummydata = [
         orgTitle:"Food House",
         orgDomain:"Hospitality",
         orgEmail:"info@foodhouse.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:6,
@@ -45,7 +45,7 @@ export const dummydata = [
         orgTitle:"Health Equity",
         orgDomain:"Healthcare",
         orgEmail:"info@healthequity.com",
-        orgStatus:"",
+        orgStatus:true,
     },
     {
         id:7,
@@ -53,7 +53,7 @@ export const dummydata = [
         orgTitle:"Commercial Journal",
         orgDomain:"Construction Service",
         orgEmail:"info@commercialj.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:8,
@@ -61,7 +61,7 @@ export const dummydata = [
         orgTitle:"Auto Zone",
         orgDomain:"Automobiles",
         orgEmail:"info@autozone.com",
-        orgStatus:"",
+        orgStatus:true,
     },
     {
         id:9,
@@ -69,7 +69,7 @@ export const dummydata = [
         orgTitle:"MacKiev",
         orgDomain:"IT Service",
         orgEmail:"info@mackiev.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:10,
@@ -77,7 +77,7 @@ export const dummydata = [
         orgTitle:"IT Technologies",
         orgDomain:"IT Service",
         orgEmail:"info@ittechnologies.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:11,
@@ -85,7 +85,7 @@ export const dummydata = [
         orgTitle:"FIN 101",
         orgDomain:"Finance Service",
         orgEmail:"info@f101.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:12,
@@ -93,7 +93,7 @@ export const dummydata = [
         orgTitle:"Hotel Planner.com",
         orgDomain:"Online Booking",
         orgEmail:"info@hp.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:13,
@@ -101,7 +101,7 @@ export const dummydata = [
         orgTitle:"IT Technologies",
         orgDomain:"IT Service",
         orgEmail:"info@ittechnologies.com",
-        orgStatus:"",
+        orgStatus:true,
     },
     {
         id:14,
@@ -109,7 +109,7 @@ export const dummydata = [
         orgTitle:"FIN 101",
         orgDomain:"Finance Service",
         orgEmail:"info@f101.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:15,
@@ -117,7 +117,7 @@ export const dummydata = [
         orgTitle:"Hotel Planner.com",
         orgDomain:"Online Booking",
         orgEmail:"info@hp.com",
-        orgStatus:"",
+        orgStatus:true,
     },
     {
         id:16,
@@ -125,7 +125,7 @@ export const dummydata = [
         orgTitle:"Hotel Planner.com",
         orgDomain:"Online Booking",
         orgEmail:"info@hp.com",
-        orgStatus:"",
+        orgStatus:false,
     },
     {
         id:17,
@@ -133,6 +133,6 @@ export const dummydata = [
         orgTitle:"Hotel Planner.com",
         orgDomain:"Online Booking",
         orgEmail:"info@hp.com",
-        orgStatus:"",
+        orgStatus:false,
     },
 ]

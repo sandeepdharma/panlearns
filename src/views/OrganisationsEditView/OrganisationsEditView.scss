@@ -1,25 +1,19 @@
 $border: 1px solid red;
 
 .organisations-edit-view-container {
-    // border: $border;
-
     .organisations-edit-view-card-container {
-        // border: $border;
         height: 65vh;
         margin: 1% 5%;
         display: flex;
     }
     .reset{
-        // border: $border;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
         text-align: center;
         width: 20%;
        
     }
     .organisations-edit-view-icon-container {
-        // border: $border;
         border-radius: 50%;
         background-color: #00b4d8;
         color: white;
@@ -31,31 +25,27 @@ $border: 1px solid red;
         display: flex;
         justify-content: center;
         align-items:  center;
-        // pediting: 0% 5%;
         margin-right:5%;
         margin-top:2%;
     }
 
     .organisations-edit-view-input {
-        // border: $border;
         width: 45%;
         margin:0% 1%
 
     }
     .ant-input-affix-wrapper {
-        // border: $border;
         margin: 10% 0% 7% 10%;
         padding: 3%;
     }
     .ant-select-selector{
         color: red;
         margin: 10% 0% 7% 10%;
-        // padding: 3%;
     }
     .button-container {
         margin-right: 7%;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
     }
     .ant-btn{
         margin-left:15%;

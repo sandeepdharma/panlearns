@@ -1,6 +1,7 @@
 import "antd/dist/antd.min.css";
 import "./OrganisationsListView.scss";
-import { Table } from "antd";
+
+import { Table} from "antd";
 import {  useHistory } from "react-router-dom";
 import { dummydata } from "../../fixtures/dummydata";
 import { useState, useEffect } from "react";
@@ -27,29 +28,40 @@ export const OrganisationsListView = () => {
         return (
           <div className="list-view-container">
             <img
-              width="13%"
+              width="10%"
+              height="10%"
               alt="img-logo"
               className="list-view-logo"
               src={record.orgLogo}
             />
-            {/*<Avatar src={record.productimage}/> */}
+            
             <p className="list-view-name">{record.orgTitle}</p>
           </div>
         );
       },
       // key: 'orgTitle',
-      width: "30%",
+      width: "25%",
     },
     {
       title: "Email",
       dataIndex: "orgEmail",
       // key: 'orgEmail',
-      width: "20%",
+      width: "25%",
     },
     {
       title: "Domain",
       dataIndex: "orgDomain",
       // key: 'orgDomain',
+      width:"25%"
+    },
+    {
+      title: "Status",
+      dataIndex: "orgStatus",
+        render : (data) => (
+          <div style={{height : "12px", width : "12px", background : data? "green" : "red", borderRadius : "50%"}} className='center'></div>
+          ) ,
+      // key: 'orgDomain',
+      width:"25%"
     },
   ];
   return (

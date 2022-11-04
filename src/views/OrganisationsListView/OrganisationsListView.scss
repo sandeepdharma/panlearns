@@ -1,12 +1,18 @@
 .organisations-listview-container{
-    margin-top: 5%;
+    margin-top: 2%;
     height: 62vh;
+    // border: 1px solid red;
 }
 .list-view-container{
     display: flex;
-    text-align: center;
+    // border: 1px solid red;
 }
 .list-view-name{
-    border: 1px solid red;
-    text-align: center;
+    // border: 1px solid red;
+    margin-top: 1%;
+    margin-left: 5%;
+
+}
+.tick{
+    color: red;
 }
